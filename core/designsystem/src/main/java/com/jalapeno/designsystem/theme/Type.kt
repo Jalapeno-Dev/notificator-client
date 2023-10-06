@@ -1,4 +1,4 @@
-package com.jalapeno.jalapenonotificator.ui.theme
+package com.jalapeno.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

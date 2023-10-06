@@ -19,6 +19,12 @@ internal fun Project.configureCompose(
         dependencies {
             val bom = libs.findLibrary("androidx-compose-bom").get()
             add("implementation", platform(bom))
+
+            add("implementation", libs.findLibrary("androidx.navigation.compose").get())
+            add("implementation", libs.findLibrary("androidx.hilt.navigation.compose").get())
+            add("implementation", libs.findLibrary("androidx.lifecycle.runtimeCompose").get())
+            add("implementation", libs.findLibrary("androidx.lifecycle.viewModelCompose").get())
+            add("implementation", libs.findLibrary("androidx.activity.compose").get())
         }
     }
 }

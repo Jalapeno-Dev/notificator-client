@@ -1,4 +1,4 @@
-package com.jalapeno.jalapenonotificator.ui.theme
+package com.jalapeno.designsystem.theme
 
 import android.app.Activity
 import android.os.Build
