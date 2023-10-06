@@ -1,4 +1,4 @@
-package com.jalapeno.jalapenonotificator.ui.theme
+package com.jalapeno.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

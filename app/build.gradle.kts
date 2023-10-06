@@ -40,11 +40,13 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.activity.compose)
+    implementation(project(":feature:chat"))
+    implementation(project(":core:designsystem"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.core.splashscreen)
-    implementation(libs.androidx.compose.runtime)
-    implementation(libs.androidx.lifecycle.runtimeCompose)
-    implementation(libs.androidx.hilt.navigation.compose)
-    implementation(libs.androidx.navigation.compose)
+
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.test.ext.junit)
+    androidTestImplementation(libs.espresso.core)
 }
